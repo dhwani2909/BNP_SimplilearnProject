@@ -1,0 +1,5 @@
+com\file\main\FileHandlerMain.class
+com\file\model\FileHandler.class
+com\file\exception\FileHandlerException.class
+com\file\bo\FileHandlerBO.class
+com\file\boimpl\FileHandlerBoImpl.class
