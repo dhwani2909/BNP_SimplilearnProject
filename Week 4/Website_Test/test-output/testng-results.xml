@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29909" started-at="2020-07-18T09:09:26Z" finished-at="2020-07-18T09:09:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29909" started-at="2020-07-18T09:09:26Z" finished-at="2020-07-18T09:09:56Z">
+      <class name="TestNg.TestNgBasics">
+        <test-method status="PASS" signature="openWebBrowser()[pri:0, instance:TestNg.TestNgBasics@47c62251]" name="openWebBrowser" is-config="true" duration-ms="14847" started-at="2020-07-18T09:09:26Z" finished-at="2020-07-18T09:09:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebBrowser -->
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:TestNg.TestNgBasics@47c62251]" name="loginTest" duration-ms="2798" started-at="2020-07-18T09:09:41Z" finished-at="2020-07-18T09:09:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="searchBarTest()[pri:2, instance:TestNg.TestNgBasics@47c62251]" name="searchBarTest" duration-ms="3985" started-at="2020-07-18T09:09:44Z" depends-on-methods="TestNg.TestNgBasics.loginTest" finished-at="2020-07-18T09:09:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBarTest -->
+        <test-method status="PASS" signature="addToCartTest()[pri:3, instance:TestNg.TestNgBasics@47c62251]" name="addToCartTest" duration-ms="151" started-at="2020-07-18T09:09:48Z" depends-on-methods="TestNg.TestNgBasics.searchBarTest" finished-at="2020-07-18T09:09:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartTest -->
+        <test-method status="PASS" signature="signOut()[pri:4, instance:TestNg.TestNgBasics@47c62251]" name="signOut" duration-ms="8080" started-at="2020-07-18T09:09:48Z" depends-on-methods="TestNg.TestNgBasics.addToCartTest" finished-at="2020-07-18T09:09:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+      </class> <!-- TestNg.TestNgBasics -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
